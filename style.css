@@ -1,0 +1,81 @@
+.login{
+	
+	-webkit-box-shadow: 0px 0px 44px -12px rgba(0,0,0,0.56);
+-moz-box-shadow: 0px 0px 44px -12px rgba(0,0,0,0.56);
+box-shadow: 0px 0px 44px -12px rgba(0,0,0,0.56);
+margin: 0 auto;
+text-align: center;
+font-family: "Times New Roman", Times, serif;
+color: gray;
+
+
+
+}
+input[type=submit]{
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    margin-top: 20px;
+    padding: 10px 14px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+}
+h2{
+	padding-top: 20px;
+	text-align: center;
+	font-family: "Times New Roman", Times, serif;
+	color: black;
+}
+input{
+	position: relative;
+}
+input[type=text] {
+    
+ 	padding: 6px 18px;
+    margin: 8px 6px;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 2px;
+    box-sizing: border-box;
+    position: relative;
+}
+input[type=password] {
+    
+ 	padding: 6px 18px;
+    margin: 8px 6px;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 2px;
+    box-sizing: border-box;
+}
+input[type=file] {
+	padding: 00px 0px;
+    margin: 8px 6px;
+    position: relative;
+    display: inline-block;
+ 	text-align:right;  
+ 	
+ 	width:205px;  
+    
+}
+label{
+	display: inline-block;
+    width:100px;
+    text-align: left; 
+}
+hr{
+	color: gray;
+	width: 90%;
+
+}
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+    margin: 0 auto;
+}
+image{
+    width: 128px;
+    height: 128px;
+}
